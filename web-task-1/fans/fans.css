@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(6, 81px);
+  justify-items: center;
+}
+
+.navigation-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 80px;
+  height: 50px;
+}
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.comment-container {
+  margin-bottom: 20px;
+  width: 80%;
+  border-bottom: 3px solid #000;
+  padding-bottom: 20px;
+}
+
+.comment-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.new-comment {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.new-comment-btn {
+  width: 20%;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #ccc;
+  align-self: flex-end;
+}
+
+.new-comment-text {
+  resize: none;
+  width: 70%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 3px solid #000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: #ccc;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="admin.css" rel="stylesheet" type="text/css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="navigation-option"><span>Main</span></div>
+        <div class="navigation-option"><span>Matches</span></div>
+        <div class="navigation-option"><span>News</span></div>
+        <div class="navigation-option"><span>Fans</span></div>
+        <div class="navigation-option"><span>Contacts</span></div>
+        <div class="navigation-option selected"><span>Admin</span></div>
+      </nav>
+      <div class="logo navigation-option">LOGO</div>
+    </header>
+    <main>
+      <h2>Add news</h2>
+      <div class="news-wrapper">
+        <div class="news-image-container">
+          <img
+            src="./assets/news-image.png"
+            alt="news image"
+            class="news-image"
+          />
+          <button class="news-btn">Add image</button>
+        </div>
+        <div class="news-text-wrapper">
+          <div class="news-text-container">
+            <textarea
+              class="news-text-title"
+              name="title"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <textarea
+              class="news-text-content"
+              name="text"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="news-btn">Add news</button>
+        </div>
+      </div>
+    </main>
+    <footer><h3>FOOTER</h3></footer>
+    <script src="admin.js"></script>
+  </body>
+</html>
