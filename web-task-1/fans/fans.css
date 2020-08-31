@@ -40,10 +40,13 @@ header {
   font-weight: 700;
 }
 
+.new-comment-container {
+  width: 80%;
+}
+
 .new-comment {
   display: flex;
   justify-content: space-between;
-  width: 80%;
 }
 
 .new-comment-btn {
@@ -71,4 +74,25 @@ footer {
 
 .selected {
   background-color: #ccc;
+}
+
+.error {
+  display: inline;
+  color: red;
+}
+
+.comments-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.delete {
+  display: none;
+}
+
+.invalid {
+  border: 1px solid red;
 }
