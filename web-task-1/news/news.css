@@ -39,8 +39,8 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 
 .news-wrapper {
@@ -82,11 +82,28 @@ footer {
   font-weight: bold;
 }
 
-.error {
-  display: inline;
-  color: red;
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5%;
+  justify-items: center;
+  width: 80%;
 }
 
-.invalid {
-  border: 1px solid red;
+.news-image {
+  width: 100%;
+  height: 120px;
+}
+
+.news-title {
+  margin: 0;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.news-text {
+  border: 1px solid #000;
+  border-top: none;
+  padding: 5px;
+  margin-top: 0;
 }

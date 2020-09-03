@@ -23,7 +23,7 @@
       <div class="news-wrapper">
         <div class="news-image-container">
           <img
-            src="./assets/news-image.png"
+            src="../assets/news-image.png"
             alt="news image"
             class="news-image"
           />
@@ -32,21 +32,23 @@
         <div class="news-text-wrapper">
           <div class="news-text-container">
             <textarea
-              class="news-text-title"
-              name="title"
-              cols="30"
-              rows="10"
-              placeholder="News title"
+            class="news-text-title"
+            name="title"
+            cols="30"
+            rows="10"
+            placeholder="News title"
             ></textarea>
+            <div class="error-message-title"></div>
             <textarea
-              class="news-text-content"
-              name="text"
-              cols="30"
-              rows="10"
-              placeholder="News text"
+            class="news-text-content"
+            name="text"
+            cols="30"
+            rows="10"
+            placeholder="News text"
             ></textarea>
+            <div class="error-message-content"></div>
           </div>
-          <button class="news-btn">Add news</button>
+          <button id="add-news-button" class="news-btn">Add news</button>
         </div>
       </div>
     </main>
