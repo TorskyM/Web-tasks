@@ -1,0 +1,20 @@
+    <main>
+      <h2>Останні новини</h2>
+      <div class="news-list">
+        {{#if news.length}}
+        {{#each news}}
+        <div class="news-item">
+          <img src="/news-image.png" alt="news image" class="news-image">
+          <div class="news-content">
+            <h3 class="news-title">{{title}}</h3>
+            <p class="news-text">{{postText}}</p>
+          </div>
+        </div>
+        {{/each}}
+       {{else}}
+       <h5>No news here...</h5>
+       {{/if}}
+      </div>
+    </main>
+    <footer><h3>FOOTER</h3></footer>
+    <script src="/news.js"></script>

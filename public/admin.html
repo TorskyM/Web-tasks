@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="admin.css" rel="stylesheet" type="text/css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="navigation-option"><span>Main</span></div>
+        <div class="navigation-option"><span>Matches</span></div>
+        <div id="news-tab" class="navigation-option"><span>News</span></div>
+        <div class="navigation-option"><span>Fans</span></div>
+        <div class="navigation-option"><span>Contacts</span></div>
+        <div id="admin-tab" class="navigation-option selected"><span>Admin</span></div>
+      </nav>
+      <div class="logo navigation-option">LOGO</div>
+    </header>
+
+    <main class="news-atricle">
+      <h2>Останні новини</h2>
+      <div class="news-list">
+        <!-- <div class="news-item">
+          <img src="../assets/news-image.png" alt="news image" class="article-image">
+          <div class="news-content">
+            <h3 class="news-title">Назва</h3>
+            <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit quidem vitae.</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <img src="../assets/news-image.png" alt="news image" class="article-image">
+          <div class="news-content">
+            <h3 class="news-title">Назва</h3>
+            <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit quidem vitae.</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <img src="../assets/news-image.png" alt="news image" class="article-image">
+          <div class="news-content">
+            <h3 class="news-title">Назва</h3>
+            <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit quidem vitae.</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <img src="../assets/news-image.png" alt="news image" class="article-image">
+          <div class="news-content">
+            <h3 class="news-title">Назва</h3>
+            <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit quidem vitae.</p>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <main class="admin-atricle">
+      <h2>Add news</h2>
+      <div class="news-wrapper">
+        <div class="news-image-container">
+          <img
+            src="news-image.png"
+            alt="news image"
+            class="news-image"
+          />
+          <button class="news-btn">Add image</button>
+        </div>
+        <div class="news-text-wrapper">
+          <div class="news-text-container">
+            <textarea
+            class="news-text-title"
+            name="title"
+            cols="30"
+            rows="10"
+            placeholder="News title"
+            ></textarea>
+            <div class="error-message-title"></div>
+            <textarea
+            class="news-text-content"
+            name="text"
+            cols="30"
+            rows="10"
+            placeholder="News text"
+            ></textarea>
+            <div class="error-message-content"></div>
+          </div>
+          <button id="add-news-button" class="news-btn">Add news</button>
+        </div>
+      </div>
+    </main>
+    <footer><h3>FOOTER</h3></footer>
+    <script src="admin.js"></script>
+  </body>
+</html>

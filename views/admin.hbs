@@ -1,0 +1,24 @@
+<main class="admin-atricle">
+  <h2>Add news</h2>
+  <form action="/admin" method="POST">
+    <div class="news-wrapper">
+      <div class="news-image-container">
+        <img src="/news-image.png" alt="news image" class="news-image" />
+        <button class="news-btn">Add image</button>
+      </div>
+      <div class="news-text-wrapper">
+        <div class="news-text-container">
+          <textarea class="news-text-title" name="title" cols="30" rows="10" placeholder="News title"></textarea>
+          <div class="error-message-title"></div>
+          <textarea class="news-text-content" name="text" cols="30" rows="10" placeholder="News text"></textarea>
+          <div class="error-message-content"></div>
+        </div>
+        <button id="add-news-button" class="news-btn">Add news</button>
+      </div>
+    </div>
+  </form>
+</main>
+<footer>
+  <h3>FOOTER</h3>
+</footer>
+<script src="admin.js"></script>

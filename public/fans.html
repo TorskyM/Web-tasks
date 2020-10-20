@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="fans.css" rel="stylesheet" type="text/css" />
+    <title>Fans</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="navigation-option"><span>Main</span></div>
+        <div class="navigation-option"><span>Matches</span></div>
+        <div class="navigation-option"><span>News</span></div>
+        <div class="navigation-option selected"><span>Fans</span></div>
+        <div class="navigation-option"><span>Contacts</span></div>
+        <div class="navigation-option"><span>Admin</span></div>
+      </nav>
+      <div class="logo navigation-option">LOGO</div>
+    </header>
+    <main class="comments-section">
+      <div class="comments-wrapper">
+        <h2>Звернення фанів</h2>
+      </div>
+      <div class="new-comment-container">
+        <div class="new-comment">
+          <textarea
+            class="new-comment-text"
+            cols="30"
+            rows="10"
+            placeholder="Написати звернення..."
+            id="comment-input"
+            required
+          ></textarea>
+          <button type="submit" id="send-comment" class="new-comment-btn" onclick="handleClick()">
+            Send
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer><h3>FOOTER</h3></footer>
+    <script src="fans.js"></script>
+  </body>
+</html>
